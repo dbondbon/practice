@@ -11,7 +11,7 @@ public class StringDemo {
 
     public static void main(String[] args) {
 
-        String string = "abcdefg";
+        String string = "abcdefgabc";
 
         //1、string.endsWith("aaa")
         System.out.println(string.endsWith("abc"));
@@ -19,5 +19,8 @@ public class StringDemo {
 
         //2、string.substring(a,b)
         System.out.println(string.substring(2,4));
+
+        //3、string.lastIndexof('a')
+        System.out.println(string.lastIndexOf('b'));
     }
 }
