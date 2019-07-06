@@ -1,5 +1,7 @@
 package designPatterns.proxyPattern;
 
+import java.lang.reflect.Proxy;
+
 /**
  * @ClassName ProxyPatternDemo
  * @Descrcription 代理模式演示类
@@ -16,5 +18,17 @@ public class ProxyPatternDemo {
         image.display();
         //图像不需要从磁盘加载
         image.display();
+
+
+
+        //演示JDK自带的动态代理
+        //真实对象
+        Image realImage = new RealImage("test2.jpg");
+        //处理器
+        ImageInvocationHandler imageInvocationHandler = new ImageInvocationHandler(realImage);
+        //代理对象
+        Image proxyClass = (Image) Proxy.newProxyInstance(ClassLoader.getSystemClassLoader(), new Class[]{Image.class}, imageInvocationHandler);
+
+        proxyClass.display();
     }
 }

@@ -2,7 +2,7 @@ package designPatterns.proxyPattern;
 
 /**
  * @ClassName ProxyImage
- * @Descrcription 图片代理类（作用：减少 RealImage 对象加载的内存占用）
+ * @Descrcription 普通图片代理类（作用：减少 RealImage 对象加载的内存占用）
  * @Author zzc
  * @Date 2019/7/6 16:26
  * @Version 1.0
