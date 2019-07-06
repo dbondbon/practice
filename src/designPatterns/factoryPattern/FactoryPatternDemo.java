@@ -1,8 +1,10 @@
 package designPatterns.factoryPattern;
 
+import common.Shape;
+
 /**
  * @ClassName FactoryPatternDemo
- * @Descrcription 工厂模式测试类
+ * @Descrcription 工厂模式演示类
  * @Author zzc
  * @Date 2019/7/6 13:20
  * @Version 1.0

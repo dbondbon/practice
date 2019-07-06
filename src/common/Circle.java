@@ -1,4 +1,4 @@
-package designPatterns.factoryPattern;
+package common;
 
 /**
  * @ClassName Circle

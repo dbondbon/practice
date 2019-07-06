@@ -1,5 +1,10 @@
 package designPatterns.factoryPattern;
 
+import common.Circle;
+import common.Rectangle;
+import common.Shape;
+import common.Square;
+
 /**
  * @ClassName ShapeFactory
  * @Descrcription 工厂类，使用getShape方法获取类型形状的对象
