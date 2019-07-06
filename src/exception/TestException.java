@@ -12,7 +12,7 @@ public class TestException {
 //			c.start();   //������null�������˶��󷽷������ԣ�
 //		}
 		
-//		String str = "1234abcf"; 
+//		string str = "1234abcf";
 //		Integer i = new Integer(str);
 		
 //		try{
