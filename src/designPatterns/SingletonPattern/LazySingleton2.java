@@ -2,7 +2,7 @@ package designPatterns.SingletonPattern;
 
 /**
  * @ClassName LazySingleton2
- * @Descrcription 懒汉式（线程安全，能在多线程环境下工作，但效率很低）
+ * @Descrcription 懒汉式（多线程安全，能在多线程环境下工作，但效率很低）
  * @Author zzc
  * @Date 2019/7/6 15:39
  * @Version 1.0
